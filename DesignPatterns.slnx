@@ -5,6 +5,6 @@
     <Project Path="src/Behavioral/Strategy/Strategy.ConsoleDemo/Strategy.ConsoleDemo.csproj" Id="1445c172-7746-402f-ba3d-d4ffda49e448" />
     <Project Path="src/Behavioral/Strategy/Strategy.NaiveSolution/Strategy.NaiveSolution.csproj" Id="8d5b97ec-22ce-4fbd-ac8b-2e4e07e30282" />
     <Project Path="src/Behavioral/Strategy/Strategy.PatternSolution/Strategy.PatternSolution.csproj" Id="a0403dcc-3ee9-4dd5-ac0c-8e224a1b633f" />
-    <Project Path="Strategy.Tests/Strategy.Tests.csproj" Id="9cc6696b-f7a6-4108-9f79-64e9c75211bb" />
+    <Project Path="src/Behavioral/Strategy/Strategy.Tests/Strategy.Tests.csproj" />
   </Folder>
 </Solution>
