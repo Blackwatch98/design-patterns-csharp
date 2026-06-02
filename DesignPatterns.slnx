@@ -7,4 +7,11 @@
     <Project Path="src/Behavioral/Strategy/Strategy.PatternSolution/Strategy.PatternSolution.csproj" Id="a0403dcc-3ee9-4dd5-ac0c-8e224a1b633f" />
     <Project Path="src/Behavioral/Strategy/Strategy.Tests/Strategy.Tests.csproj" />
   </Folder>
+  <Folder Name="/src/Creational/" />
+  <Folder Name="/src/Creational/AbstractFactory/">
+    <Project Path="AbstractFactory.ConsoleDemo/AbstractFactory.ConsoleDemo.csproj" Id="7350d468-3659-4b66-8e35-b166c7ee2f75" />
+    <Project Path="AbstractFactory.NaiveSolution/AbstractFactory.NaiveSolution.csproj" Id="c91bd2d5-5070-43ca-8770-7ee1411aeb8c" />
+    <Project Path="AbstractFactory.PatternSolution/AbstractFactory.PatternSolution.csproj" Id="fe8b6492-8bc8-47a0-a774-148d4703fbd6" />
+    <Project Path="AbstractFactory.Tests/AbstractFactory.Tests.csproj" Id="75d28a83-7d04-4ad1-8468-3b955b698c16" />
+  </Folder>
 </Solution>
