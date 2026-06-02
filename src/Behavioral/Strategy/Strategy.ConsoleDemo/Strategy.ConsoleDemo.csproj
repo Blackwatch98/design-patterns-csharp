@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Strategy.NaiveSolution\Strategy.NaiveSolution.csproj" />
+    <ProjectReference Include="..\Strategy.PatternSolution\Strategy.PatternSolution.csproj" />
   </ItemGroup>
 
 </Project>
