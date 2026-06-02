@@ -3,7 +3,7 @@ using Strategy.NaiveSolution;
 
 namespace Strategy.Tests
 {
-    public class UnitTest1
+    public class StrategyUnitTests
     {
         [Fact]
         public void CalculateFinalPrice_ForRegularCustomer_ReturnsFullPrice()
