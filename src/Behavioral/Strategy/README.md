@@ -17,15 +17,20 @@ It helps to:
 
 ## Example
 
-A common example is a payment system.
+In this project, the Strategy Pattern is shown using an order discount calculation example.
 
-Different payment methods can be implemented as separate strategies:
+The naive solution calculates the final order price based on the customer type:
 
-- credit card payment,
-- PayPal payment,
-- bank transfer payment.
+- `Regular` customer receives no discount,
+- `Premium` customer receives a 10% discount,
+- `Vip` customer receives a 20% discount.
 
-The main checkout logic does not need to know how each payment method works. It only uses a common strategy interface.
+In the naive version, the calculator contains conditional logic and decides which discount should be applied:
+
+```csharp
+var calculator = new OrderPriceCalculator();
+
+var finalPrice = calculator.CalculateFinalPrice(100m, CustomerType.Premium);
 
 ## Structure in this project
 
