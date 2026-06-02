@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AbstractFactory.NaiveSolution\AbstractFactory.NaiveSolution.csproj" />
+    <ProjectReference Include="..\AbstractFactory.PatternSolution\AbstractFactory.PatternSolution.csproj" />
+  </ItemGroup>
+
 </Project>
